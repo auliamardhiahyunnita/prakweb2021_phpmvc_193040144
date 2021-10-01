@@ -1,9 +1,13 @@
 <?php
 
 class Controller {
-    public function view($view, $data = [])
+    public function view($view, $data = []) 
     {
-        require_once '../app/view/' . $view . '.php';
+        require_once '../app/views/' . $view . '.php';
     }
-    
+
+    public function model($model)
+    {
+        require_once '../app/models/' . $model . 'php';
+    }
 }

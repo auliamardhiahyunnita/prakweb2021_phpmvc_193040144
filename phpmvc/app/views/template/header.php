@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <tittle> Halaman home</tittle>
-        <link rel="stylesheet" href="">
+        <tittle> halaman <?= $data['judul' ]; ?></tittle>
+        <link rel="stylesheet" href="http://localhost/phpmvc/public/css/bootstrap.css"> 
 </head>
 <body>
